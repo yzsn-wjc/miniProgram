@@ -1,0 +1,21 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+}
+
+.app-header {
+  display: flex;
+}
+
+.app-header h3 {
+  flex: 1;
+  cursor: pointer;
+}
+
+.app-content {
+  flex: 1;
+  overflow: auto;
+  background: wheat;
+}
